@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    background:#789F8A;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #789F8A 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #F7F7F7 0%, #658d8f 100%);
+  }
+  
+  /** Header styles **/
+  .header {
+    background-image: url(https://i.ytimg.com/vi/SdiJmC2EibM/maxresdefault.jpg);
+    height: 400px;
+    background-position: center center;
+  }
+  
+  .roasting {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: rgb(72, 99, 107);
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  .roasting p {
+    color: rgb(206, 172, 174);
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: rgb(8, 0, 0);
+    overflow: auto;
+    opacity: 0.9;
+  }
+  
+  .spectrum p {
+    color: rgb(8, 0, 0);
+    text-align: left;
+  }
+  
+  /* Roast types */
+  .green {
+    background-color: #A6706C;
+  }
+  
+  .light {
+    background-color: #A68774;
+  }
+  
+  .city {
+    background-color: #A49A81;
+  }
+  
+  .vienna {
+    background-color: #A52A2A;
+  }
+  
+  .italian {
+    background-color: #000000;
+  }
+  
+  /* Typography */
+  h1 {
+    color: rgb(19, 2, 31);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 40%;
+  }
+  
+  h2 {
+    color: rgb(29, 17, 4);
+    font-family: 'Alegreya Sans SC', sans-serif;    
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    color: rgb(187, 158, 162);
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: .2em;
+    color: rgb(66, 55, 40);
+  }
+  
+  h5 {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    line-height: .2em;
+    font-weight: 300;
+  }
+  
+  /* Page elements */
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+  }
+  
+  li {
+    border-bottom: 1px solid rgb(8, 4, 0);
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+  }
+  
+  p {
+    color: rgb(0,0,0);
+    line-height: 32px;
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  a {
+    color: rgb(0,0,0)
+    font-family: 'Karma', serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  footer p {
+    text-align: center;
+    font-size: small;
+  }
